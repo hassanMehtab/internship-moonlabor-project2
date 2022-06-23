@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hassanMehtab/internship-moonlabor-project2/static/css/main.2fbc2c48.css",
-    "main.js": "/hassanMehtab/internship-moonlabor-project2/static/js/main.cbd605ae.js",
-    "static/js/787.7ee7dea8.chunk.js": "/hassanMehtab/internship-moonlabor-project2/static/js/787.7ee7dea8.chunk.js",
-    "static/media/shopping-bag.svg": "/hassanMehtab/internship-moonlabor-project2/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
-    "index.html": "/hassanMehtab/internship-moonlabor-project2/index.html",
-    "static/media/crown.svg": "/hassanMehtab/internship-moonlabor-project2/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
-    "main.2fbc2c48.css.map": "/hassanMehtab/internship-moonlabor-project2/static/css/main.2fbc2c48.css.map",
-    "main.cbd605ae.js.map": "/hassanMehtab/internship-moonlabor-project2/static/js/main.cbd605ae.js.map",
-    "787.7ee7dea8.chunk.js.map": "/hassanMehtab/internship-moonlabor-project2/static/js/787.7ee7dea8.chunk.js.map"
+    "main.css": "/internship-moonlabor-project2/static/css/main.2fbc2c48.css",
+    "main.js": "/internship-moonlabor-project2/static/js/main.c477fd98.js",
+    "static/js/787.7ee7dea8.chunk.js": "/internship-moonlabor-project2/static/js/787.7ee7dea8.chunk.js",
+    "static/media/shopping-bag.svg": "/internship-moonlabor-project2/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/crown.svg": "/internship-moonlabor-project2/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
+    "index.html": "/internship-moonlabor-project2/index.html",
+    "main.2fbc2c48.css.map": "/internship-moonlabor-project2/static/css/main.2fbc2c48.css.map",
+    "main.c477fd98.js.map": "/internship-moonlabor-project2/static/js/main.c477fd98.js.map",
+    "787.7ee7dea8.chunk.js.map": "/internship-moonlabor-project2/static/js/787.7ee7dea8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fbc2c48.css",
-    "static/js/main.cbd605ae.js"
+    "static/js/main.c477fd98.js"
   ]
 }
