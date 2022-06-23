@@ -5,15 +5,7 @@ import Home from './Routes/Home/Home';
 import Authentication from './Authentication/Authentication';
 import { Routes , Route } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
-const Shop = () => {
-  return ( 
-    <div>
-    <h1>Shop here</h1>
-    </div>
-
-
-   );
-}
+import Shop from './Routes/Home/Shop/Shop';
  
 
 
