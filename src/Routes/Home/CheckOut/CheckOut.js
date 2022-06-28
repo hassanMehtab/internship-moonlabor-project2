@@ -1,41 +1,53 @@
 import { useContext } from 'react';
-import CartItem from '../../../CartItem/CartItem';
+// import CartItem from '../../../CartItem/CartItem';
 import { CartContext } from '../../../Context/CartContext';
 import './CheckOut.style.scss'
+import CheckOutItem from '../../../CheckOutItem/CheckOutItem';
+
 
 const CheckOut = () => {
-    const {cartItems , addItemToCart} = useContext(CartContext)
-    return ( 
-        <div>
-        <h1> welcome to checkout
-        </h1>
-        <div>
-        
-        {cartItems.map((cartItem) => {
-            
-            const {id , name , quantity} = cartItem;
-            return (
-            <div key={id}>
-            <h2>{name}</h2>
-            <span>{quantity}</span>
-            <br />
-            <span onClick={() => addItemToCart(cartItem)}>increment</span>
-            <br />
-            <span >decrement</span>
-            
+    
+    const { cartItems , addItemToCart , removeItemToCart , cartTotal} = useContext(CartContext)
+    return (
+            <div className='checkout-container' >
+            <div className='checkout-header'>
+            <div className='header-block'>
+            <span>product</span>
+            </div>
+            <div className='header-block'>
+            <span>description</span>
+            </div>
+            <div className='header-block'>
+            <span>Quantiy</span>
+            </div>
+            <div className='header-block'>
+            <span>price</span>
+            </div>
+            <div className='header-block'>
+            <span>Remove</span>
+            </div>
+            <div className='header-block'>
+            </div>
             </div>
 
-        );
-        }
+            {cartItems.map((cartItem) => (
+        
+            <CheckOutItem key={cartItem.id} cartItem={cartItem} />
+            
+                
+    ))} 
         
         
-    )}
-        </div>
+        
+
+        
+        <span className='total'>Total : ${cartTotal}</span>
         
         </div>
 
 
-    )
+    ); 
 }
+
  
 export default CheckOut;
